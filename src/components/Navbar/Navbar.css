@@ -1,0 +1,29 @@
+.navbar__wrapper{
+    background: #343341;
+    width: 23%;
+    height: 100vh;
+}
+
+.navbar__wrapper ul{
+    padding: 20px 0  0 40px;
+}
+
+
+@media only screen and (max-width: 825px){
+    .navbar__wrapper ul{
+        padding: 20px 0  0 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 706px){
+    .navbar__wrapper ul{
+        padding: 20px 0  0 10px;
+    }
+}
+@media only screen and (max-width: 536px){
+    .navbar__wrapper {
+       display: none;
+    }
+}

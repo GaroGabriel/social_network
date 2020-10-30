@@ -4,8 +4,18 @@
     box-sizing: border-box;
     outline: none;
 }
+body{
+    background: #bebce9;
+}
 .container{
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 15px;
+}
+.container__noPadding{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.main-content .container__noPadding{
+    display: flex;
 }
