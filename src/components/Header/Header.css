@@ -1,0 +1,17 @@
+.header__wrapper{
+    background: #514f68;
+}
+.header__wrapper .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 370px){
+    .header__wrapper .container{
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,42 @@
+.icons__wrapper{
+    display: flex;
+}
+.icons__wrapper .bell a img {
+    height: 25px;
+    padding: 3px 20px 0 20px ;
+}
+.icons__wrapper .bell  {
+    position: relative;
+}
+.bell__notification{
+    background:#2FACFF;
+    font-size: 10px;
+    color: #fff;
+    display: inline;
+    padding: 0px 4px;
+    border-radius:100%;
+    position: absolute;
+    top: 2px;
+    left: 31px;
+    user-select: none;
+}
+
+.icons__wrapper .grup a img {
+    height: 25px;
+    padding: 3px 20px 0 0 ;
+}
+.icons__wrapper .grup  {
+    position: relative;
+}
+.grup__notification{
+    background:#FF5E33;
+    font-size: 10px;
+    color: #fff;
+    display: inline;
+    padding: 0px 4px;
+    border-radius:100%;
+    position: absolute;
+    top: 2px;
+    left: 18px;
+    user-select: none;
+}

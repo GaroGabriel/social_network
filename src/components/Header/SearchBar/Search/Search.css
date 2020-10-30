@@ -1,0 +1,11 @@
+.searchBar__wrapper input{
+height: 25px;
+border-radius: 3px;
+border: none;
+padding: 5px 5px;
+}
+@media only screen and (max-width: 400px){
+    .searchBar__wrapper input{
+        display: none;
+        }
+}
