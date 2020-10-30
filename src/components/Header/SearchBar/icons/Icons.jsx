@@ -1,25 +1,28 @@
 import React from 'react';
-import './Icons.css';
+import classes from './Icons.module.css';
 import bell from './bell.svg'
 import grup from './grup.svg'
+
+
 function Icons() {
     return (
-        <div className="icons__wrapper">
-            <div className="bell">
+        <div className={classes.icons__wrapper}>
+            <div className={classes.bell}>
                 <a href="#">
                     <img src={bell} alt="bell" />
-                </a>
-                <div className="bell__notification">
-                    5
+                    <div className={classes.bell__notification}>
+                        5
                 </div>
+                </a>
+
             </div>
-            <div className="grup">
+            <div className={classes.grup}>
                 <a href="#">
                     <img src={grup} alt="grup" />
-                </a>
-                <div className="grup__notification">
-                    2
+                    <div className={classes.grup__notification}>
+                        2
                 </div>
+                </a>
             </div>
         </div>
     )

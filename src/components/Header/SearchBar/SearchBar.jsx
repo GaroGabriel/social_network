@@ -1,12 +1,12 @@
 import React from 'react';
 import Icons from './icons/Icons.jsx';
 import Search from './Search/Search.jsx';
-import './SearchBar.css';
+import classes from './SearchBar.module.css';
 
 
 function SearchBar() {
     return (
-        <div className='searchBar__wrapper'>
+        <div className={classes.searchBar__wrapper}>
             <Icons />
             <Search />
         </div>
