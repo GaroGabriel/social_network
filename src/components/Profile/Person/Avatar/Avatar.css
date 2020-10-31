@@ -1,3 +1,28 @@
-.avatar__wrapper{
+.avatar__wrapper {
+    height: 180%;
+    background: #eee;
+    display: inline-block;
+    border-radius: 100%;
+    padding:3px;
+    margin-top: -90px;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+}
 
+.avatar__wrapper img{
+    height: 100%;
+    border-radius: 100%;
+}
+
+@media only screen and (max-width: 688px){
+    .avatar__wrapper {
+        height: 130%;
+        margin-top: -70px;
+    }
+}
+@media only screen and (max-width: 530px){
+    .avatar__wrapper {
+        height: 100%;
+        margin-top: -50px;
+    }
 }

@@ -1,7 +1,9 @@
 .cover__wrapper{
-
+padding: 3px;
+background: #eee;
+border-radius: 5px;
 }
 .cover__wrapper img{
 width: 100%;
-border-radius: 7px;
+border-radius: 5px;
 }

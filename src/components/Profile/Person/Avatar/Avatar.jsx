@@ -1,10 +1,12 @@
 import React from 'react';
 import './Avatar.css';
-
+import avatar from './avatar.jpg'
 function Avatar() {
     return (
         <div className='avatar__wrapper'>
-            avatar
+
+            <img src={avatar} alt="avatar" />
+
         </div>
     );
 }

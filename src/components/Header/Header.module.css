@@ -1,5 +1,8 @@
 .header__wrapper{
     background: #514f68;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 .header__wrapper .container{
     display: flex;
