@@ -1,9 +1,11 @@
 import React from 'react';
-import './Cover.css';
+import classes from './Cover.module.css';
 import cover from './cover.jpg'
+
+
 function Cover() {
     return (
-        <div className='cover__wrapper'>
+        <div className={classes.cover__wrapper}>
             <img src={cover} alt="cover" />
         </div>
     );

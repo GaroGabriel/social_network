@@ -1,11 +1,12 @@
 .navbar__wrapper{
     background: #343341;
     width: 23%;
-    height: 100vh;
+    height: 110vh;
 }
 
 .navbar__wrapper ul{
     padding: 20px 0  0 40px;
+    
 }
 
 

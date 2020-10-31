@@ -1,0 +1,22 @@
+.info_personal_item__wrapper{
+    margin: 2px 5px;
+}
+.info_personal_item__wrapper span{
+    color: rgb(73, 73, 73);
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+
+@media only screen and (max-width: 688px){
+    .info_personal_item__wrapper span{
+       font-size: 14px;
+    }
+ 
+}
+@media only screen and (max-width: 530px){
+    .info_personal_item__wrapper span{
+        font-size: 10px;
+     }
+}

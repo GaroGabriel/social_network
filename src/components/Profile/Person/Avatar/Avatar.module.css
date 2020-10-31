@@ -7,22 +7,33 @@
     margin-top: -90px;
     margin-left: 50%;
     transform: translate(-50%, 0%);
+    height: 166px;
 }
 
 .avatar__wrapper img{
-    height: 100%;
+    height: 160px;
     border-radius: 100%;
 }
 
 @media only screen and (max-width: 688px){
+
     .avatar__wrapper {
-        height: 130%;
-        margin-top: -70px;
+        height: 126px;
+        transform: translate(-50%, 17%);
     }
+    .avatar__wrapper img{
+        height: 120px;
+    }
+    
 }
 @media only screen and (max-width: 530px){
     .avatar__wrapper {
-        height: 100%;
-        margin-top: -50px;
+        height: 86px;
+        transform: translate(-50%, 17%);
     }
+    .avatar__wrapper img{
+        height: 80px;
+    }
+    
 }
+

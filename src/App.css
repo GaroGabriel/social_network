@@ -7,6 +7,17 @@
 body{
     background: #bebce9;
 }
+button{
+    padding: 6px 25px;
+    border-radius: 3px;
+    background: #514f68;
+    color: #eee;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background: #343341;
+}
 .container{
     max-width: 1000px;
     margin: 0 auto;

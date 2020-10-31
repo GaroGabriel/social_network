@@ -1,13 +1,13 @@
 import React from 'react';
 import ListItem from './ListItem/ListItem';
-import './Navbar.css';
+import classes from './Navbar.module.css';
 import menu from './menu.svg'
 
 function Navbar() {
     return (
 
 
-        <div className='navbar__wrapper'>
+        <div className={classes.navbar__wrapper}>
             {/* <div className='nav__button'>
                     <img src={menu} alt="" />
                 </div> */}

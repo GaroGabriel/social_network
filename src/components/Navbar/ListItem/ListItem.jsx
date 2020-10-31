@@ -1,11 +1,11 @@
 import React from 'react';
-import './ListItem.css';
+import classes from './ListItem.module.css';
 
 function ListItem(props) {
     return (
 
         <li>
-            <div className="list__dot"></div>
+            <div className={classes.list__dot}></div>
             <a href="#">{props.name}</a>
         </li>
 

@@ -1,10 +1,10 @@
 import React from 'react';
-import './Info_status.css';
+import classes from './Info_status.module.css';
 
-function Info_status() {
+function Info_status(props) {
     return (
-        <div className='info_status__wrapper'>
-            <span>Some status here :) </span>
+        <div className={classes.info_status__wrapper}>
+            <span>{props.status}</span>
         </div>
     );
 }

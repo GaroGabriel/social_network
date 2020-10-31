@@ -1,6 +1,6 @@
 import React from 'react';
-import Person from './Person/Person';
 import './Profile.css';
+import Person from './Person/Person';
 import Wall from './Wall/Wall';
 
 function Profile() {

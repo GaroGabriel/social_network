@@ -16,6 +16,7 @@ li a{
     text-decoration: none;
     padding: 0 0 5px 10px;
     position: relative;
+
 }
 li a:after{
     content: '';
@@ -34,5 +35,8 @@ color: rgb(255, 138, 187);
 @media only screen and (max-width: 640px){
     li a:after{
         width: 60px;
+    }
+    li a{
+        font-size:11px ;
     }
 }
