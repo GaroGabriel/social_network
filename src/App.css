@@ -26,6 +26,7 @@ button:hover{
 .container__noPadding{
     max-width: 1000px;
     margin: 0 auto;
+  
 }
 .main-content .container__noPadding{
     display: flex;

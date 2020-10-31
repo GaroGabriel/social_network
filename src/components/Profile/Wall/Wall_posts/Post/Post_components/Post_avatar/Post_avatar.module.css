@@ -1,0 +1,10 @@
+.post_avatar__wrapper{
+    height: 60px;
+    margin: 0 10px 10px 10px;width: 60px;
+
+}
+.post_avatar__wrapper img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}

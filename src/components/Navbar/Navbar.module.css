@@ -1,7 +1,8 @@
 .navbar__wrapper{
     background: #343341;
     width: 23%;
-    height: 110vh;
+    /* height: 110vh; */
+  
 }
 
 .navbar__wrapper ul{

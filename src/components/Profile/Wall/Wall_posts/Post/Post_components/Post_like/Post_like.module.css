@@ -1,0 +1,18 @@
+.post_like__wrapper{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.post_like__wrapper span{
+    font-weight: 600;
+    font-size: 16px;
+}
+.post_like__wrapper span a{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+}
+
+.post_like__wrapper span a:hover{
+    text-decoration: none;
+    color: rgb(92, 50, 146);
+}

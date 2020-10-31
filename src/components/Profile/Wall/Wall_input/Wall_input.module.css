@@ -1,0 +1,38 @@
+.wall_input__wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+hr{
+    margin:10px 0 30px 0;
+    background: rgb(158, 158, 158);
+    border: solid .1px  rgb(133, 133, 133);
+}
+textarea{
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+.wall_input__wrapper button{
+    margin-top: 10px;
+    align-self: flex-end;
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 688px){
+    .wall_input__wrapper button{
+        margin-top: 10px;
+        align-self: center;
+
+    }
+}
+@media only screen and (max-width: 530px){
+    .wall_input__wrapper button{
+        margin-top: 10px;
+        align-self: center;
+        width: 90%;
+       
+    }
+}

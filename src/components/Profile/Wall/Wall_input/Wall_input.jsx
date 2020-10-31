@@ -1,11 +1,12 @@
 import React from 'react';
-import './Wall_input.css';
+import classes from './Wall_input.module.css';
 
 function Wall_input() {
     return (
-        <div className='wall_input__wrapper'>
-
-            <button>Push me</button>
+        <div className={classes.wall_input__wrapper}>
+            <hr />
+            <textarea cols="num" rows="num" placeholder='Your News'></textarea>
+            <button>Publish</button>
         </div>
     );
 }

@@ -1,10 +1,10 @@
 import React from 'react';
-import './Info_personal.css';
+import classes from './Info_personal.module.css';
 import Info_personal_item from './Info_personal_item/Info_personal_item';
 
 function Info_personal() {
     return (
-        <div className='info_personal__wrapper'>
+        <div className={classes.info_personal__wrapper}>
             <Info_personal_item keys='Date of birth: ' value="09.09.1888" />
             <Info_personal_item keys='E-mail: ' value="somemail@gmail.com" />
             <Info_personal_item keys='Web: ' value="www.something.am" />

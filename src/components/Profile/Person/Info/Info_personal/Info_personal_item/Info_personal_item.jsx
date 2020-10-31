@@ -1,9 +1,9 @@
 import React from 'react';
-import './Info_personal_item.css';
+import classes from './Info_personal_item.module.css';
 
 function Info_personal_item(props) {
     return (
-        <div className='info_personal_item__wrapper'>
+        <div className={classes.info_personal_item__wrapper}>
             <span>{props.keys}</span>
             <span>{props.value}</span>
         </div>
