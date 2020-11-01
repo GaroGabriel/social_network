@@ -8,12 +8,9 @@ function Navbar() {
 
 
         <div className={classes.navbar__wrapper}>
-            {/* <div className='nav__button'>
-                    <img src={menu} alt="" />
-                </div> */}
             <ul>
-                <ListItem name='Profile' />
-                <ListItem name='Massages' />
+                <ListItem name='Profile' hr='/Profile' />
+                <ListItem name='Massages' hr='/Massages' />
                 <ListItem name='News' />
                 <ListItem name='Settings' />
                 <ListItem name='FAQ' />

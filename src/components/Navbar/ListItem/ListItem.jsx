@@ -6,7 +6,7 @@ function ListItem(props) {
 
         <li>
             <div className={classes.list__dot}></div>
-            <a href="#">{props.name}</a>
+            <a href={props.hr}>{props.name}</a>
         </li>
 
     );
