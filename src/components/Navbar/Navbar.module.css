@@ -1,8 +1,8 @@
 .navbar__wrapper{
     background: #343341;
     width: 23%;
-    /* height: 110vh; */
-  
+    height: 110vh;
+
 }
 
 .navbar__wrapper ul{
@@ -21,6 +21,9 @@ li{
     width: 7px;
     background: rgb(243, 119, 191);
     border-radius: 100%;
+}
+li .active{
+    color: rgb(255, 138, 187);
 }
 li a{
     color:  rgb(255, 255, 255);

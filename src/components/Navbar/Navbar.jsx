@@ -12,11 +12,11 @@ function Navbar(props) {
             <ul>
                 <li>
                     <div className={classes.list__dot}></div>
-                    <NavLink to='/profile'>Profile</NavLink>
+                    <NavLink to='/profile' activeClassName={classes.active}>Profile</NavLink>
                 </li>
                 <li>
                     <div className={classes.list__dot}></div>
-                    <NavLink to='/massages'>Massages</NavLink>
+                    <NavLink to='/massages' activeClassName={classes.active}>Massages</NavLink>
                 </li>
                 <li>
                     <div className={classes.list__dot}></div>

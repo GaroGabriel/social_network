@@ -15,11 +15,10 @@ function App() {
         <div className='main-content'>
           <div className='container__noPadding'>
             <Navbar />
+
             <Route path='/profile' component={Profile} />
             <Route path='/massages' component={Massages} />
 
-            {/* <Profile /> */}
-            {/* <Massages /> */}
           </div>
         </div>
       </div>

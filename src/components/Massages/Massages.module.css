@@ -1,6 +1,60 @@
 .massages__wrapper{
-    background: gray;
     width: 100%;
-    margin: 5px;
+    height: 100%;
+    padding: 6px;
+    display: flex;
+}
+.dialogs{
+    width: 30%;
+    padding: 6px;
+    background:#e1e0f5;
     border-radius: 5px;
+}
+.dialogs h3{
+text-align: center;
+color: rgb(37, 37, 37);
+font-weight: 500;
+margin: 10px 0;
+}
+.dialogs .dialog{
+    margin: 10px 0;
+    padding: 0 10px;
+}
+.dialogs .dialog a{
+text-decoration: none;
+color:rgb(71, 71, 73);
+}
+.dialogs .dialog a:hover{
+    color: indianred;
+    }
+a.active{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+
+.massages{
+    background-color: rgb(246, 248, 255);
+    padding-left: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 70%;
+    height: 100vh;
+
+}
+.person__massages{
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 70vh;
+
+}
+.massage{
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
 }
