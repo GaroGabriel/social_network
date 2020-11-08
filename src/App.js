@@ -20,8 +20,13 @@ function App(props) {
           <div className='container__noPadding'>
             <Navbar />
 
-            <Route path='/profile' render={() => <Profile post={props.post} />} />
-            <Route path='/massages' render={() => <Massages dialogeArr={props.dialogeArr} massageArr={props.massageArr} />} />
+            <Route path='/profile' render={
+              () => <Profile
+                post={props.state.profile.post} />} />
+            <Route path='/massages' render={
+              () => <Massages
+                dialogeArr={props.state.massanger.dialogeArr}
+                massageArr={props.state.massanger.massageArr} />} />
 
           </div>
         </div>
