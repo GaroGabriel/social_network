@@ -3,8 +3,11 @@ import React from 'react';
 import classes from './Navbar.module.css';
 import menu from './menu.svg'
 import { NavLink } from 'react-router-dom';
+import Friends from './friens/Friends';
+
 
 function Navbar(props) {
+
     return (
 
 
@@ -36,6 +39,11 @@ function Navbar(props) {
                 <ListItem name='Settings' />
                 <ListItem name='FAQ' /> */}
             </ul>
+
+
+
+            <Friends friensArr={props.friensArr} />
+
         </div>
 
     );

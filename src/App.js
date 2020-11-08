@@ -12,13 +12,14 @@ import Profile from './components/Profile/Profile';
 
 function App(props) {
 
+
   return (
     <BrowserRouter>
       <div className='body__wrapper'>
         <Header />
         <div className='main-content'>
           <div className='container__noPadding'>
-            <Navbar />
+            <Navbar friensArr={props.state.sidebar.friensArr} />
 
             <Route path='/profile' render={
               () => <Profile

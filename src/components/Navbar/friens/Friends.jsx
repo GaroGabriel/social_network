@@ -1,44 +1,33 @@
 import React from 'react';
-// import ListItem from './ListItem/ListItem';
-import classes from './Navbar.module.css';
-import menu from './menu.svg'
+
+import classes from './Friends.module.css';
+
 import { NavLink } from 'react-router-dom';
 
-function Navbar(props) {
+
+
+
+
+function Friends(props) {
+
+
+    let friendsM = props.friensArr.map((i) => <div className={classes.friend}>
+        <img src={i.src} alt={i.name} />
+        <NavLink to={i.id}>
+            {i.name}</NavLink>
+    </div>)
     return (
+        <div>
+            <h3>Friends</h3>
+            < div className={classes.friends__wrapper} >
 
 
-        <div className={classes.navbar__wrapper}>
-            <ul>
-                <li>
-                    <div className={classes.list__dot}></div>
-                    <NavLink to='/profile' activeClassName={classes.active}>Profile</NavLink>
-                </li>
-                <li>
-                    <div className={classes.list__dot}></div>
-                    <NavLink to='/massages' activeClassName={classes.active}>Massages</NavLink>
-                </li>
-                <li>
-                    <div className={classes.list__dot}></div>
-                    <NavLink to='/news'>News</NavLink>
-                </li>
-                <li>
-                    <div className={classes.list__dot}></div>
-                    <NavLink to='/settings'>Settings</NavLink>
-                </li>
-                <li>
-                    <div className={classes.list__dot}></div>
-                    <NavLink to='/FAQ'>FAQ</NavLink>
-                </li>
-                {/* <ListItem name='Profile' na='/Profile' />
-                <ListItem name='Massages' na='/Massages' />
-                <ListItem name='News' />
-                <ListItem name='Settings' />
-                <ListItem name='FAQ' /> */}
-            </ul>
+                {friendsM}
+            </div >
         </div>
+
 
     );
 }
 
-export default Navbar;
+export default Friends;

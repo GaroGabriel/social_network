@@ -54,11 +54,12 @@ let state = {
         ]
     },
     sidebar: {
-        friends: [
-            {
-
-            }
+        friensArr: [
+            { id: 1, name: 'Artash', src: 'https://miro.medium.com/max/600/1*6B8ggGnMHopsrLO775K6oQ.png', },
+            { id: 2, name: 'Ծյուշ', src: 'https://cdn2.iconfinder.com/data/icons/unilite-shift-human-vol-2/60/011_089_avatar_friend_mutual_check-512.png', },
+            { id: 3, name: 'Կրակ', src: 'https://img.favpng.com/24/10/16/club-penguin-s-more-campfire-clip-art-png-favpng-xvmXm1yspT2KznvieTaFNy3xg.jpg', },
         ]
+
     }
 
 
