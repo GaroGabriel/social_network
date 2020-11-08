@@ -5,7 +5,6 @@ import classes from './Massages.module.css'
 
 //////////////////////////////////////////////////////////////// DIALOGE
 const Dialoge = (props) => {
-
     const toLink = '/massages/' + props.num;
 
     return (
@@ -30,22 +29,8 @@ const Massage = (props) => {
 //////////////////////////////////////////////////////////////// MASSAGEsSs
 const Massages = (props) => {
 
-    const dialogeArr = [
-        { name: 'ArmanCHO', id: 1, active: classes.active },
-        { name: 'Հայկուհի', id: 2, active: '' },
-        { name: 'Ինչ-որ հավայի Group', id: 3, active: '' },
-        { name: '2Pac', id: 4, active: '' },
-        { name: 'ԱԱԾ', id: 5, active: '' }
-    ]
-    const massageArr = [
-        { id: 1, massage: 'first massage' },
-        { id: 2, massage: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quisquam numquam distinctio asperiores  porro harum facere aliquid veritatis, repellendus fugiat voluptatum dolor ut illo cum cupiditate est. Voluptatibus, corrupti placeat.' },
-
-        { id: 3, massage: 'ոռաթիո դելենիթ ծոնսթիթուամ մեա թե, մեա եու ուլլամծոռպեռ սուսծիպիանթուռ. նո դեսեռունթ վուլպութաթե վոլուպթաթում եում. եամ եխ ասսում թիմեամ աեթեռնո, իուս եթ նեմոռե բլանդիթ պռոբաթուս. սոլում նուլլամ իմպեռդիեթ վիմ եի, եռաթ ծոպիոսաե պոնդեռում վիմ եի, ալիի սապիենթեմ քուո ին.' },
-    ]
-
-    let dialogMap = dialogeArr.map((i) => <Dialoge num={i.id} name={i.name} active={i.active} />)
-    let massageMap = massageArr.map((i) => <Massage massage={i.massage} id={i.id} />)
+    let dialogMap = props.dialogeArr.map((i) => <Dialoge num={i.id} name={i.name} active={i.active} />)
+    let massageMap = props.massageArr.map((i) => <Massage massage={i.massage} id={i.id} />)
 
     return (
         <div className={classes.massages__wrapper}>

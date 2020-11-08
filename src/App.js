@@ -7,7 +7,11 @@ import Massages from './components/Massages/Massages';
 import Navbar from './components/Navbar/Navbar';
 import Profile from './components/Profile/Profile';
 
-function App() {
+// let profileComp = () => <Profile />
+// let massageComp = () => <Massages />
+
+function App(props) {
+
   return (
     <BrowserRouter>
       <div className='body__wrapper'>
@@ -16,8 +20,8 @@ function App() {
           <div className='container__noPadding'>
             <Navbar />
 
-            <Route path='/profile' component={Profile} />
-            <Route path='/massages' component={Massages} />
+            <Route path='/profile' render={() => <Profile post={props.post} />} />
+            <Route path='/massages' render={() => <Massages dialogeArr={props.dialogeArr} massageArr={props.massageArr} />} />
 
           </div>
         </div>
