@@ -26,7 +26,17 @@ color:rgb(71, 71, 73);
 }
 .dialogs .dialog a:hover{
     color: indianred;
-    }
+}
+.dialog__person{
+    display: flex;
+    align-items: center;
+}
+.dialog__person img{
+    height: 35px;
+    border-radius: 100%;
+    /* padding: 0 10px 0 0; */
+    margin: 0 10px 0 0 ;
+}
     
 a.active{
     font-size: 17px;

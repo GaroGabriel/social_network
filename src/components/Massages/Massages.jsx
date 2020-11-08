@@ -5,12 +5,15 @@ import classes from './Massages.module.css'
 
 //////////////////////////////////////////////////////////////// DIALOGE
 const Dialoge = (props) => {
+
     const toLink = '/massages/' + props.num;
 
     return (
         <div className={classes.dialog}>
             <NavLink to={toLink} className={classes.dialog__person + ' ' + props.active}>
-                {props.name}</NavLink>
+                <img src={props.src} alt='Ava' />
+                {props.name}
+            </NavLink>
         </div>
     )
 }
@@ -29,7 +32,7 @@ const Massage = (props) => {
 //////////////////////////////////////////////////////////////// MASSAGEsSs
 const Massages = (props) => {
 
-    let dialogMap = props.dialogeArr.map((i) => <Dialoge num={i.id} name={i.name} active={i.active} />)
+    let dialogMap = props.dialogeArr.map((i) => <Dialoge num={i.id} name={i.name} active={i.active} src={i.src} />)
     let massageMap = props.massageArr.map((i) => <Massage massage={i.massage} id={i.id} />)
 
     return (

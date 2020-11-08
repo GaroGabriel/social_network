@@ -23,6 +23,7 @@ function App(props) {
             <Route path='/profile' render={
               () => <Profile
                 post={props.state.profile.post} />} />
+
             <Route path='/massages' render={
               () => <Massages
                 dialogeArr={props.state.massanger.dialogeArr}

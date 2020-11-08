@@ -39,11 +39,12 @@ let state = {
     },
     massanger: {
         dialogeArr: [
-            { name: 'ArmanCHO', id: 1, active: 'classes.active' },
-            { name: 'Հայկուհի', id: 2, active: '' },
-            { name: 'Ինչ-որ հավայի Group', id: 3, active: '' },
-            { name: '2Pac', id: 4, active: '' },
-            { name: 'ԱԱԾ', id: 5, active: '' }
+            { name: 'ArmanCHO', id: 1, active: 'classes.active', src: 'https://lh3.googleusercontent.com/proxy/6n36xfWsdTRe4YscvYIz9q-EtoR8k77M5SAaK-TyPGdtjLKQEhoAZ9P-H0xKoOxpC4hH2XOHFaFE33lQ4wlw_pqUUL_XPpPb' },
+            { name: 'Հայկուհի', id: 2, active: '', src: 'https://thumbs.dreamstime.com/b/girl-avatar-cartoon-stock-vector-image-cute-beautiful-eyes-93364804.jpg' },
+            { name: 'Ինչ-որ հավայի Group', id: 3, active: '', src: 'https://www.clipartmax.com/png/middle/67-675294_culture-clipart-workshop-avatar-group-icon.png' },
+            { name: '2Pac', id: 4, active: '', src: 'https://i.pinimg.com/originals/2e/39/10/2e39102a3619829f438d4c5bc57710f0.jpg' },
+            { name: 'ԱԱԾ', id: 5, active: '', src: 'https://p7.hiclipart.com/preview/218/697/74/computer-icons-avatar-youtube-swat-avatar.jpg' },
+            { name: 'Mr. Bean', id: 6, active: '', src: 'https://avatarfiles.alphacoders.com/894/89419.jpg' }
         ],
         massageArr: [
             { id: 1, massage: 'first ' },
@@ -52,6 +53,15 @@ let state = {
             { id: 3, massage: 'ոռաթիո դելենիթ ծոնսթիթուամ մեա թե, մեա եու ուլլամծոռպեռ սուսծիպիանթուռ. նո դեսեռունթ վուլպութաթե վոլուպթաթում եում. եամ եխ ասսում թիմեամ աեթեռնո, իուս եթ նեմոռե բլանդիթ պռոբաթուս. սոլում նուլլամ իմպեռդիեթ վիմ եի, եռաթ ծոպիոսաե պոնդեռում վիմ եի, ալիի սապիենթեմ քուո ին.' },
         ]
     },
+    sidebar: {
+        friends: [
+            {
+
+            }
+        ]
+    }
+
+
 
 }
 
