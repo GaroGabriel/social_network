@@ -5,12 +5,19 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import state from './redux/State'
 import { BrowserRouter, Route } from 'react-router-dom';
+import { addPost } from './redux/State'
+import { newMassageFun } from './redux/State'
+
+
 
 ReactDOM.render(
   <BrowserRouter>
     <React.StrictMode>
 
-      <App state={state} />
+      <App
+        state={state}
+        addPost={addPost}
+        newMassageFun={newMassageFun} />
 
     </React.StrictMode>
   </BrowserRouter>

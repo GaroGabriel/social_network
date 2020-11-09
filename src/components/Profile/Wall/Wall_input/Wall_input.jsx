@@ -1,14 +1,19 @@
 import React from 'react';
+import { addPost } from '../../../../redux/State';
 import classes from './Wall_input.module.css';
 
 
 
-let newPost = React.createRef()
 
-function Wall_input() {
+
+function Wall_input(props) {
+
+
+    let newPost = React.createRef()
     const postButton = () => {
-        alert(newPost.current.value)
+        props.addPost(newPost.current.value)
     }
+
 
     return (
         <div className={classes.wall_input__wrapper}>

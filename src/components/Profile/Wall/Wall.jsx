@@ -9,7 +9,7 @@ function Wall(props) {
 
     return (
         <div className={classes.wall_input__wrapper}>
-            <Wall_input />
+            <Wall_input addPost={props.addPost} />
             <Wall_posts post={props.post} />
         </div>
     );

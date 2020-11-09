@@ -64,4 +64,29 @@ let state = {
 
 }
 
+
+////////////////////////////////////////////////////////////////////////////////EXPORT FUNCS
+
+
+export let addPost = (postPost) => {
+    let newPost = {
+        id: 8, avatar: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/338861d3-af44-4291-8dad-b753e6d5b0a4/ddq2j7a-3d480a52-0257-41e5-bfce-8cbe6fcb8fba.png/v1/fill/w_894,h_894,q_70,strp/new_avatar_by_rorikondesu_ddq2j7a-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMjAwIiwicGF0aCI6IlwvZlwvMzM4ODYxZDMtYWY0NC00MjkxLThkYWQtYjc1M2U2ZDViMGE0XC9kZHEyajdhLTNkNDgwYTUyLTAyNTctNDFlNS1iZmNlLThjYmU2ZmNiOGZiYS5wbmciLCJ3aWR0aCI6Ijw9MTIwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.0VjK7VYjn83bikwixCwRtxzOmTunHWK_23hLDtJozk0',
+        name: 'NewPost',
+        content: postPost,
+        like: 0
+    };
+    state.profile.post.push(newPost)
+}
+
+export let newMassageFun = (newMass) => {
+
+    let newMasPush = {
+        id: 3,
+        massage: newMass,
+    }
+    state.massanger.massageArr.push(newMasPush)
+}
+
+
+
 export default state;

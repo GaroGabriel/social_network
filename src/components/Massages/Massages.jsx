@@ -4,15 +4,21 @@ import classes from './Massages.module.css'
 import Dialoge from './Dialoge/Dialoge'
 import Massage from './Massage/Massage'
 
-const newMassage = React.createRef()
 
-const massageSend = () => {
-    alert(newMassage.current.value)
-}
 
 
 
 const Massages = (props) => {
+
+    let newMassage = React.createRef()
+
+    let massageSend = () => {
+        props.newMassageFun(newMassage.current.value)
+
+    }
+
+
+
 
     let dialogMap = props.dialogeArr.map((i) => <Dialoge num={i.id} name={i.name} active={i.active} src={i.src} />)
     let massageMap = props.massageArr.map((i) => <Massage massage={i.massage} id={i.id} />)

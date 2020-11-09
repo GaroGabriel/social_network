@@ -9,7 +9,7 @@ function Profile(props) {
     return (
         <div className={classes.profile__wrapper}>
             <Person />
-            <Wall post={props.post} />
+            <Wall post={props.post} addPost={props.addPost} />
         </div>
     );
 }
