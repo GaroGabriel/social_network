@@ -2,14 +2,13 @@ import React from 'react';
 import classes from './Wall_input.module.css';
 
 
+
 let newPost = React.createRef()
 
 function Wall_input() {
-
     const postButton = () => {
         alert(newPost.current.value)
     }
-
 
     return (
         <div className={classes.wall_input__wrapper}>

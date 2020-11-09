@@ -49,8 +49,6 @@ let state = {
         massageArr: [
             { id: 1, massage: 'first ' },
             { id: 2, massage: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quisquam numquam distinctio asperiores  porro harum facere aliquid veritatis, repellendus fugiat voluptatum dolor ut illo cum cupiditate est. Voluptatibus, corrupti placeat.' },
-
-            { id: 3, massage: 'ոռաթիո դելենիթ ծոնսթիթուամ մեա թե, մեա եու ուլլամծոռպեռ սուսծիպիանթուռ. նո դեսեռունթ վուլպութաթե վոլուպթաթում եում. եամ եխ ասսում թիմեամ աեթեռնո, իուս եթ նեմոռե բլանդիթ պռոբաթուս. սոլում նուլլամ իմպեռդիեթ վիմ եի, եռաթ ծոպիոսաե պոնդեռում վիմ եի, ալիի սապիենթեմ քուո ին.' },
         ]
     },
     sidebar: {

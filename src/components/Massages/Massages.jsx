@@ -1,35 +1,17 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import classes from './Massages.module.css'
+import Dialoge from './Dialoge/Dialoge'
+import Massage from './Massage/Massage'
 
+const newMassage = React.createRef()
 
-//////////////////////////////////////////////////////////////// DIALOGE
-const Dialoge = (props) => {
-
-    const toLink = '/massages/' + props.num;
-
-    return (
-        <div className={classes.dialog}>
-            <NavLink to={toLink} className={classes.dialog__person + ' ' + props.active}>
-                <img src={props.src} alt='Ava' />
-                {props.name}
-            </NavLink>
-        </div>
-    )
-}
-
-//////////////////////////////////////////////////////////////// MASSAGE
-const Massage = (props) => {
-
-    return (
-        <div className={classes.massage}>
-            {props.massage}
-        </div>
-    )
+const massageSend = () => {
+    alert(newMassage.current.value)
 }
 
 
-//////////////////////////////////////////////////////////////// MASSAGEsSs
+
 const Massages = (props) => {
 
     let dialogMap = props.dialogeArr.map((i) => <Dialoge num={i.id} name={i.name} active={i.active} src={i.src} />)
@@ -49,7 +31,15 @@ const Massages = (props) => {
                 <div className={classes.person__massages}>
                     {massageMap}
                 </div>
+                <hr />
+
+                <div className={classes.input}>
+                    <textarea ref={newMassage} placeholder='your massage here' cols="30" rows="10"></textarea>
+                </div>
+
+                <button onClick={massageSend}>Send</button>
             </div>
+
         </div>
     )
 }

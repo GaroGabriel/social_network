@@ -52,8 +52,17 @@ a.active{
     border-radius: 5px;
     width: 70%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+ }
 
-}
+.massages .input textarea{
+width: 98%;
+} 
+.massages button{
+   align-self: end;
+   margin: 2% 2% 0 0;
+    } 
 .person__massages{
     padding-right: 10px;
     display: flex;
