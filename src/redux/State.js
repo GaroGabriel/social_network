@@ -39,7 +39,7 @@ let state = {
     },
     massanger: {
         dialogeArr: [
-            { name: 'ArmanCHO', id: 1, active: 'classes.active', src: 'https://lh3.googleusercontent.com/proxy/6n36xfWsdTRe4YscvYIz9q-EtoR8k77M5SAaK-TyPGdtjLKQEhoAZ9P-H0xKoOxpC4hH2XOHFaFE33lQ4wlw_pqUUL_XPpPb' },
+            { name: 'ArmanCHO', id: 1, active: 'classes.active', src: 'https://www.pngfind.com/pngs/m/521-5217216_male-icons-free-and-clipart-avatar-hd-png.png' },
             { name: 'Հայկուհի', id: 2, active: '', src: 'https://thumbs.dreamstime.com/b/girl-avatar-cartoon-stock-vector-image-cute-beautiful-eyes-93364804.jpg' },
             { name: 'Ինչ-որ հավայի Group', id: 3, active: '', src: 'https://www.clipartmax.com/png/middle/67-675294_culture-clipart-workshop-avatar-group-icon.png' },
             { name: '2Pac', id: 4, active: '', src: 'https://i.pinimg.com/originals/2e/39/10/2e39102a3619829f438d4c5bc57710f0.jpg' },

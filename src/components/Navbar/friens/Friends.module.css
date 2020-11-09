@@ -1,5 +1,8 @@
 h3{
-    color: ivory;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+    color: rgb(144, 169, 248);
 }
 .friends__wrapper{
     display: flex;

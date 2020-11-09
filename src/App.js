@@ -14,26 +14,26 @@ function App(props) {
 
 
   return (
-    <BrowserRouter>
-      <div className='body__wrapper'>
-        <Header />
-        <div className='main-content'>
-          <div className='container__noPadding'>
-            <Navbar friensArr={props.state.sidebar.friensArr} />
 
-            <Route path='/profile' render={
-              () => <Profile
-                post={props.state.profile.post} />} />
+    <div className='body__wrapper'>
+      <Header />
+      <div className='main-content'>
+        <div className='container__noPadding'>
+          <Navbar friensArr={props.state.sidebar.friensArr} />
 
-            <Route path='/massages' render={
-              () => <Massages
-                dialogeArr={props.state.massanger.dialogeArr}
-                massageArr={props.state.massanger.massageArr} />} />
+          <Route path='/profile' render={
+            () => <Profile
+              post={props.state.profile.post} />} />
 
-          </div>
+          <Route path='/massages' render={
+            () => <Massages
+              dialogeArr={props.state.massanger.dialogeArr}
+              massageArr={props.state.massanger.massageArr} />} />
+
         </div>
       </div>
-    </BrowserRouter>
+    </div>
+
   );
 }
 
